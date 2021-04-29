@@ -70,7 +70,56 @@
         <a
           href="#"
           class="block py-2 font-medium transition-colors duration-200 hover:text-gray-900"
+          >Adjustments</a
+        >
+      </li>
+      <li class="ml-4">
+        <a
+          href="#"
+          class="block py-2 font-medium transition-colors duration-200 hover:text-gray-900"
+          >Border & Padding</a
+        >
+      </li>
+      <li class="ml-4">
+        <a
+          href="#"
+          class="block py-2 font-medium transition-colors duration-200 hover:text-gray-900"
+          >Face Detection</a
+        >
+      </li>
+      <li class="ml-4">
+        <a
+          href="#"
+          class="block py-2 font-medium transition-colors duration-200 hover:text-gray-900"
+          >Fill</a
+        >
+      </li>
+      <li class="ml-4">
+        <a
+          href="#"
+          class="block py-2 font-medium transition-colors duration-200 hover:text-gray-900"
+          >Format</a
+        >
+      </li>
+      <li class="ml-4">
+        <a
+          href="#"
+          class="block py-2 font-medium transition-colors duration-200 hover:text-gray-900"
           >Size</a
+        >
+      </li>
+      <li class="ml-4">
+        <a
+          href="#"
+          class="block py-2 font-medium transition-colors duration-200 hover:text-gray-900"
+          >Stylize</a
+        >
+      </li>
+      <li class="ml-4">
+        <a
+          href="#"
+          class="block py-2 font-medium transition-colors duration-200 hover:text-gray-900"
+          >Trim</a
         >
       </li>
       <li>
