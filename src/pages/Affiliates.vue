@@ -28,10 +28,10 @@
               <div class="prose">
                 <h2
                   class="flex whitespace-pre-wrap group"
-                  id="installing-tailwind-css-as-a-post-css-plugin"
+                  id=""
                 >
                   <a
-                    href="#installing-tailwind-css-as-a-post-css-plugin"
+                    href="#"
                     class="absolute opacity-0 after:hash group-hover:opacity-100"
                     aria-label="Anchor"
                     style="

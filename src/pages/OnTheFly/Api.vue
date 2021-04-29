@@ -26,10 +26,7 @@
             </div>
             <div>
               <div class="prose">
-                <h2
-                  class="flex whitespace-pre-wrap group"
-                  id=""
-                >
+                <h2 class="flex whitespace-pre-wrap group" id="">
                   <a
                     href="#"
                     class="absolute opacity-0 after:hash group-hover:opacity-100"
@@ -44,18 +41,19 @@
                   ><span>Image Operations</span>
                 </h2>
                 <p>
-                  The following list of query paramters you may apply to any image delivered through the Meema Content Delivery Network (CDN).
+                  The following list of query paramters you may apply to any
+                  image delivered through the Meema Content Delivery Network
+                  (CDN).
                 </p>
                 <p>
-                  In case you are struggling to make sense of this,  no worries. Check out our <a href="#">Playground</a> and we are certain any unclarity will start to make sense.
+                  In case you are struggling to make sense of this, no worries.
+                  Check out our <a href="#">Playground</a> and we are certain
+                  any unclarity will start to make sense.
                 </p>
 
-                <h3
-                  class="flex whitespace-pre-wrap group"
-                  id="#"
-                >
+                <h3 class="flex whitespace-pre-wrap group" id="#">
                   <a
-                    href="##"
+                    href="#"
                     class="absolute opacity-0 after:hash group-hover:opacity-100"
                     aria-label="Anchor"
                     style="
@@ -65,22 +63,17 @@
                       color: rgb(161, 161, 170);
                     "
                   ></a
-                  ><span>Media Delivery</span>
+                  ><span>Size</span>
                 </h3>
-                  <p>
-                  Ex eiusmod et mollit velit labore excepteur duis exercitation
-                  do quis consectetur. Nulla esse occaecat nostrud non voluptate
-                  ullamco tempor fugiat minim. Labore consectetur culpa deserunt
-                  velit ullamco ullamco. Aute ex sit eu sint ad magna excepteur
-                  do labore incididunt irure. Eu elit ex voluptate ea est.
+                <p>
+                  These size parameters allow you to easily adjust the size
+                  (resizing &amp; cropping), aspect ratio and the fit-to-crop
+                  behavior.
                 </p>
 
-                <h3
-                  class="flex whitespace-pre-wrap group"
-                  id="#"
-                >
+                <h4 class="flex whitespace-pre-wrap group" id="#">
                   <a
-                    href="##"
+                    href="#"
                     class="absolute opacity-0 after:hash group-hover:opacity-100"
                     aria-label="Anchor"
                     style="
@@ -90,39 +83,13 @@
                       color: rgb(161, 161, 170);
                     "
                   ></a
-                  ><span>Storage &amp; Costs</span>
-                </h3>
-                  <p>
-                  Ex eiusmod et mollit velit labore excepteur duis exercitation
-                  do quis consectetur. Nulla esse occaecat nostrud non voluptate
-                  ullamco tempor fugiat minim. Labore consectetur culpa deserunt
-                  velit ullamco ullamco. Aute ex sit eu sint ad magna excepteur
-                  do labore incididunt irure. Eu elit ex voluptate ea est.
+                  ><span>`w`</span>
+                </h4>
+                <p>
+                  These w-param wip
                 </p>
-
-                <h3
-                  class="flex whitespace-pre-wrap group"
-                  id="#"
-                >
-                  <a
-                    href="##"
-                    class="absolute opacity-0 after:hash group-hover:opacity-100"
-                    aria-label="Anchor"
-                    style="
-                      margin-left: -1em;
-                      padding-right: 0.5em;
-                      box-shadow: none;
-                      color: rgb(161, 161, 170);
-                    "
-                  ></a
-                  ><span>Why are there different "Flavors?"</span>
-                </h3>
-                 <p>
-                  Ex eiusmod et mollit velit labore excepteur duis exercitation
-                  do quis consectetur. Nulla esse occaecat nostrud non voluptate
-                  ullamco tempor fugiat minim. Labore consectetur culpa deserunt
-                  velit ullamco ullamco. Aute ex sit eu sint ad magna excepteur
-                  do labore incididunt irure. Eu elit ex voluptate ea est.
+                <p>
+                  Aliases & link to the playground
                 </p>
               </div>
             </div>

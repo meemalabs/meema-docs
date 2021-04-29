@@ -18,14 +18,14 @@
       </li>
       <li>
         <a
-          href="#installing-tailwind-css-as-a-post-css-plugin"
+          href="#"
           class="block py-2 transition-colors duration-200 transform hover:text-gray-900"
           >Useful Information</a
         >
       </li>
       <li class="ml-4">
         <a
-          href="##"
+          href="#"
           class="block py-2 font-medium transition-colors duration-200 hover:text-gray-900"
           >Media Delivery</a
         >
@@ -61,147 +61,42 @@
     <ul class="overflow-x-hidden font-medium text-gray-500">
       <li>
         <a
-          href="#installing-tailwind-css-as-a-post-css-plugin"
+          href="#"
           class="block py-2 transition-colors duration-200 transform hover:text-gray-900"
           >Image Operations</a
         >
       </li>
       <li class="ml-4">
         <a
-          href="##"
-          class="block py-2 font-medium transition-colors duration-200 hover:text-gray-900"
-          >Adjustments</a
-        >
-      </li>
-      <li class="ml-4">
-        <a
-          href="##"
-          class="block py-2 font-medium transition-colors duration-200 hover:text-gray-900"
-          >Blending</a
-        >
-      </li>
-      <li class="ml-4">
-        <a
-          href="##"
-          class="block py-2 font-medium transition-colors duration-200 hover:text-gray-900"
-          >Borders</a
-        >
-      </li>
-      <li class="ml-4">
-        <a
-          href="##"
-          class="block py-2 font-medium transition-colors duration-200 hover:text-gray-900"
-          >Color Manipulation</a
-        >
-      </li>
-      <li class="ml-4">
-        <a
-          href="##"
-          class="block py-2 font-medium transition-colors duration-200 hover:text-gray-900"
-          >Face Detection</a
-        >
-      </li>
-      <li class="ml-4">
-        <a
-          href="##"
-          class="block py-2 font-medium transition-colors duration-200 hover:text-gray-900"
-          >Fill</a
-        >
-      </li>
-      <li class="ml-4">
-        <a
-          href="##"
-          class="block py-2 font-medium transition-colors duration-200 hover:text-gray-900"
-          >Focal Point Crop</a
-        >
-      </li>
-      <li class="ml-4">
-        <a
-          href="##"
-          class="block py-2 font-medium transition-colors duration-200 hover:text-gray-900"
-          >Format</a
-        >
-      </li>
-      <li class="ml-4">
-        <a
-          href="##"
-          class="block py-2 font-medium transition-colors duration-200 hover:text-gray-900"
-          >Blending</a
-        >
-      </li>
-      <li class="ml-4">
-        <a
-          href="##"
-          class="block py-2 font-medium transition-colors duration-200 hover:text-gray-900"
-          >Masking</a
-        >
-      </li>
-      <li class="ml-4">
-        <a
-          href="##"
-          class="block py-2 font-medium transition-colors duration-200 hover:text-gray-900"
-          >Noise Reduction</a
-        >
-      </li>
-      <li class="ml-4">
-        <a
-          href="##"
-          class="block py-2 font-medium transition-colors duration-200 hover:text-gray-900"
-          >Recognition</a
-        >
-      </li>
-      <li class="ml-4">
-        <a
-          href="##"
-          class="block py-2 font-medium transition-colors duration-200 hover:text-gray-900"
-          >Resizing</a
-        >
-      </li>
-      <li class="ml-4">
-        <a
-          href="##"
-          class="block py-2 font-medium transition-colors duration-200 hover:text-gray-900"
-          >Rotation</a
-        >
-      </li>
-      <li class="ml-4">
-        <a
-          href="##"
+          href="#"
           class="block py-2 font-medium transition-colors duration-200 hover:text-gray-900"
           >Size</a
         >
       </li>
-      <li class="ml-4">
-        <a
-          href="##"
-          class="block py-2 font-medium transition-colors duration-200 hover:text-gray-900"
-          >Stylize</a
-        >
-      </li>
       <li>
         <a
-          href="#installing-tailwind-css-as-a-post-css-plugin"
+          href="#"
           class="block py-2 transition-colors duration-200 transform hover:text-gray-900"
           >Video Operations</a
         >
       </li>
       <li class="ml-4">
         <a
-          href="##"
+          href="#"
           class="block py-2 font-medium transition-colors duration-200 hover:text-gray-900"
           >Format</a
         >
       </li>
       <li class="ml-4">
         <a
-          href="##"
+          href="#"
           class="block py-2 font-medium transition-colors duration-200 hover:text-gray-900"
           >Recognition</a
         >
       </li>
       <li class="ml-4">
         <a
-          href="##"
+          href="#"
           class="block py-2 font-medium transition-colors duration-200 hover:text-gray-900"
           >Thumbnail Sprites</a
         >
