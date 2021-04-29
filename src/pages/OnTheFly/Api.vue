@@ -890,6 +890,212 @@
                           color: rgb(161, 161, 170);
                         "
                       ></a
+                      ><span class="code-highlight">min-h</span>
+                    </h4>
+                    <div class="param-sections">
+                      <div class="param-desc">Description</div>
+                      <div class="param-desc-body">
+                        The minimum allowed height of the output image.
+                        <p>
+                          Must be an integer greater than 0.
+                          This parameter will only work if <span class="code-highlight">fit=crop</span> is present.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="param-sections">
+                      <div class="param-desc">Possible values</div>
+                      <div class="param-desc-body">
+                        Values can range from <span class="code-highlight">2</span> to <span class="code-highlight">8192</span>
+                      </div>
+                    </div>
+                    <div class="param-sections">
+                      <div class="param-desc">Aliases</div>
+                      <div class="param-desc-body">
+                        <ul>
+                          <li><span class="code-highlight">min-height</span></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="param-sections">
+                      <div class="param-desc">Sample Usage</div>
+                      <div class="param-desc-body">
+                        <div> http://cdn.mee.ma/path/to/image.jpg?min-h=500 </div>
+                        <div> http://cdn.mee.ma/path/to/image.jpg?min-height=500 </div>
+                      </div>
+                    </div>
+                    <div class="param-sections">
+                      <div class="param-desc">Link to the playground</div>
+                    </div>
+                  </div>
+                  
+                  <div>
+                    <h4 class="flex whitespace-pre-wrap group" id="#">
+                      <a
+                        href="#"
+                        class="absolute opacity-0 after:hash group-hover:opacity-100"
+                        aria-label="Anchor"
+                        style="
+                          margin-left: -1em;
+                          padding-right: 0.5em;
+                          box-shadow: none;
+                          color: rgb(161, 161, 170);
+                        "
+                      ></a
+                      ><span class="code-highlight">max-w</span>
+                    </h4>
+                    <div class="param-sections">
+                      <div class="param-desc">Description</div>
+                      <div class="param-desc-body">
+                        The maximum allowed width of the output image.
+                        <p>
+                          Must be an integer greater than 0.
+                          This parameter will only work if <span class="code-highlight">fit=crop</span> is present.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="param-sections">
+                      <div class="param-desc">Possible values</div>
+                      <div class="param-desc-body">
+                        Values can range from <span class="code-highlight">2</span> to <span class="code-highlight">8192</span>
+                      </div>
+                    </div>
+                    <div class="param-sections">
+                      <div class="param-desc">Aliases</div>
+                      <div class="param-desc-body">
+                        <ul>
+                          <li><span class="code-highlight">max-width</span></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="param-sections">
+                      <div class="param-desc">Sample Usage</div>
+                      <div class="param-desc-body">
+                        <div> http://cdn.mee.ma/path/to/image.jpg?max-w=500 </div>
+                        <div> http://cdn.mee.ma/path/to/image.jpg?max-width=500 </div>
+                      </div>
+                    </div>
+                    <div class="param-sections">
+                      <div class="param-desc">Link to the playground</div>
+                    </div>
+                  </div>
+
+                  <div>
+                    <h4 class="flex whitespace-pre-wrap group" id="#">
+                      <a
+                        href="#"
+                        class="absolute opacity-0 after:hash group-hover:opacity-100"
+                        aria-label="Anchor"
+                        style="
+                          margin-left: -1em;
+                          padding-right: 0.5em;
+                          box-shadow: none;
+                          color: rgb(161, 161, 170);
+                        "
+                      ></a
+                      ><span class="code-highlight">min-w</span>
+                    </h4>
+                    <div class="param-sections">
+                      <div class="param-desc">Description</div>
+                      <div class="param-desc-body">
+                        The minimum allowed width of the output image.
+                        <p>
+                          Must be an integer greater than 0.
+                          This parameter will only work if <span class="code-highlight">fit=crop</span> is present.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="param-sections">
+                      <div class="param-desc">Possible values</div>
+                      <div class="param-desc-body">
+                        Values can range from <span class="code-highlight">2</span> to <span class="code-highlight">8192</span>
+                      </div>
+                    </div>
+                    <div class="param-sections">
+                      <div class="param-desc">Aliases</div>
+                      <div class="param-desc-body">
+                        <ul>
+                          <li><span class="code-highlight">min-width</span></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="param-sections">
+                      <div class="param-desc">Sample Usage</div>
+                      <div class="param-desc-body">
+                        <div> http://cdn.mee.ma/path/to/image.jpg?min-w=500 </div>
+                        <div> http://cdn.mee.ma/path/to/image.jpg?min-width=500 </div>
+                      </div>
+                    </div>
+                    <div class="param-sections">
+                      <div class="param-desc">Link to the playground</div>
+                    </div>
+                  </div>
+
+                  <div>
+                    <h4 class="flex whitespace-pre-wrap group" id="#">
+                      <a
+                        href="#"
+                        class="absolute opacity-0 after:hash group-hover:opacity-100"
+                        aria-label="Anchor"
+                        style="
+                          margin-left: -1em;
+                          padding-right: 0.5em;
+                          box-shadow: none;
+                          color: rgb(161, 161, 170);
+                        "
+                      ></a
+                      ><span class="code-highlight">fit</span>
+                    </h4>
+                    <div class="param-sections">
+                      <div class="param-desc">Description</div>
+                      <div class="param-desc-body">
+                        The <span class="code-highlight">fit</span> parameter controls how the output image is fit to its target dimensions after resizing,
+                        and how any background areas will be filled.
+                      </div>
+                    </div>
+                    <div class="param-sections">
+                      <div class="param-desc">Possible values</div>
+                      <div class="param-desc-body">
+                        Valid values are <span class="code-highlight">clamp</span>, <span class="code-highlight">clip</span>,
+                        <span class="code-highlight">crop</span>, <span class="code-highlight">facearea</span>,
+                        <span class="code-highlight">fill</span>, <span class="code-highlight">fillmax</span>,
+                        <span class="code-highlight">max</span>, <span class="code-highlight">min</span>,
+                        and <span class="code-highlight">scale</span>.
+                        The default value is <span class="code-highlight">clip</span>.
+                      </div>
+                    </div>
+                    <div class="param-sections">
+                      <div class="param-desc">Aliases</div>
+                      <div class="param-desc-body">
+                        <ul>
+                          <li><span class="code-highlight">f</span></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="param-sections">
+                      <div class="param-desc">Sample Usage</div>
+                      <div class="param-desc-body">
+                        <div> http://cdn.mee.ma/path/to/image.jpg?fit=clamp </div>
+                        <div> http://cdn.mee.ma/path/to/image.jpg?fit=crop </div>
+                      </div>
+                    </div>
+                    <div class="param-sections">
+                      <div class="param-desc">Link to the playground</div>
+                    </div>
+                  </div>
+
+                  <div>
+                    <h4 class="flex whitespace-pre-wrap group" id="#">
+                      <a
+                        href="#"
+                        class="absolute opacity-0 after:hash group-hover:opacity-100"
+                        aria-label="Anchor"
+                        style="
+                          margin-left: -1em;
+                          padding-right: 0.5em;
+                          box-shadow: none;
+                          color: rgb(161, 161, 170);
+                        "
+                      ></a
                       ><span class="code-highlight">crop</span>
                     </h4>
                     <div class="param-sections">
@@ -1021,6 +1227,47 @@
                       <div class="param-desc-body">
                         <div>
                           http://cdn.mee.ma/path/to/image.jpg?greyscale=true
+                        </div>
+                      </div>
+                    </div>
+                    <div class="param-sections">
+                      <div class="param-desc">Link to the playground</div>
+                    </div>
+                  </div>
+
+                  <div>
+                    <h4 class="flex whitespace-pre-wrap group" id="#">
+                      <a
+                        href="#"
+                        class="absolute opacity-0 after:hash group-hover:opacity-100"
+                        aria-label="Anchor"
+                        style="
+                          margin-left: -1em;
+                          padding-right: 0.5em;
+                          box-shadow: none;
+                          color: rgb(161, 161, 170);
+                        "
+                      ></a
+                      ><span class="code-highlight">px</span>
+                    </h4>
+                    <div class="param-sections">
+                      <div class="param-desc">Description</div>
+                      <div class="param-desc-body">
+                        Applies a square pixellation effect to the image.
+                      </div>
+                    </div>
+                    <div class="param-sections">
+                      <div class="param-desc">Possible values</div>
+                      <div class="param-desc-body">
+                        Valid values are in the range <span class="code-highlight">0 – 100</span>.
+                        The default value is <span class="code-highlight">0</span>, which leaves the image unchanged. 
+                      </div>
+                    </div>
+                    <div class="param-sections">
+                      <div class="param-desc">Sample Usage</div>
+                      <div class="param-desc-body">
+                        <div>
+                          http://cdn.mee.ma/path/to/image.jpg?px=true
                         </div>
                       </div>
                     </div>
