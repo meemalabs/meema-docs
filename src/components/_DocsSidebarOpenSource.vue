@@ -31,6 +31,41 @@
     <h5
       class="px-3 mb-3 text-sm font-semibold tracking-wide text-gray-900 uppercase lg:mb-3 lg:text-xs"
     >
+      Meema.js
+    </h5>
+    <ul>
+      <li>
+        <router-link
+          active-class="text-light-blue-900"
+          to="/open-source/meema-js"
+          class="relative block px-3 py-2 transition-colors duration-200"
+          :class="
+            $route.path === '/open-source/meema-js'
+              ? ''
+              : 'hover:text-gray-900'
+          "
+          ><span
+            v-if="$route.path === '/open-source/meema-js'"
+            class="absolute inset-0 rounded-md opacity-[60%] bg-light-blue-100"
+          ></span
+          ><span class="relative">Guide</span></router-link
+        >
+      </li>
+      <li>
+        <a
+          class="relative block px-3 py-2 text-gray-500 transition-colors duration-200 hover:text-gray-900"
+          href="#"
+          ><span class="absolute inset-0 rounded-md opacity-0 bg-cyan-50"></span
+          ><span class="relative">Release Notes</span></a
+        >
+      </li>
+    </ul>
+  </li>
+
+  <li class="mt-8">
+    <h5
+      class="px-3 mb-3 text-sm font-semibold tracking-wide text-gray-900 uppercase lg:mb-3 lg:text-xs"
+    >
       Meema Client PHP
     </h5>
     <ul>
