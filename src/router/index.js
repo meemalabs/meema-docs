@@ -30,11 +30,13 @@ const routes = [
   },
   {
     path: "/on-the-fly",
+    component: () =>
+      import(/* webpackChunkName: "otf" */ "../pages/OnTheFly/index.vue"),
     children: [
       {
-        path: "/",
+        path: "",
         component: () =>
-          import(/* webpackChunkName: "otf" */ "../pages/OnTheFly/index.vue"),
+          import(/* webpackChunkName: "otf-intro" */ "../pages/OnTheFly/Introduction.vue"),
       },
       {
         path: "api",
