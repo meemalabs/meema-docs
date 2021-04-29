@@ -68,77 +68,77 @@
       </li>
       <li class="ml-4">
         <a
-          href="#"
+          href="#/on-the-fly/api/#adjustments"
           class="block py-2 font-medium transition-colors duration-200 hover:text-gray-900"
           >Adjustments</a
         >
       </li>
       <li class="ml-4">
         <a
-          href="#"
+          href="#/on-the-fly/api/#border-padding"
           class="block py-2 font-medium transition-colors duration-200 hover:text-gray-900"
           >Border & Padding</a
         >
       </li>
       <li class="ml-4">
         <a
-          href="#"
+          href="#/on-the-fly/api/#face-detection"
           class="block py-2 font-medium transition-colors duration-200 hover:text-gray-900"
           >Face Detection</a
         >
       </li>
       <li class="ml-4">
         <a
-          href="#"
+          href="#/on-the-fly/api/#fill"
           class="block py-2 font-medium transition-colors duration-200 hover:text-gray-900"
           >Fill</a
         >
       </li>
       <li class="ml-4">
         <a
-          href="#"
+          href="#/on-the-fly/api/#format"
           class="block py-2 font-medium transition-colors duration-200 hover:text-gray-900"
           >Format</a
         >
       </li>
       <li class="ml-4">
         <a
-          href="#"
+          href="#/on-the-fly/api/#size"
           class="block py-2 font-medium transition-colors duration-200 hover:text-gray-900"
           >Size</a
         >
       </li>
       <li class="ml-4">
         <a
-          href="#"
+          href="#/on-the-fly/api/#stylize"
           class="block py-2 font-medium transition-colors duration-200 hover:text-gray-900"
           >Stylize</a
         >
       </li>
       <li class="ml-4">
         <a
-          href="#"
+          href="#/on-the-fly/api/#trim"
           class="block py-2 font-medium transition-colors duration-200 hover:text-gray-900"
           >Trim</a
         >
       </li>
       <li>
         <a
-          href="#"
+          href="#/on-the-fly/api/#video-operations"
           class="block py-2 transition-colors duration-200 transform hover:text-gray-900"
           >Video Operations</a
         >
       </li>
       <li class="ml-4">
         <a
-          href="#"
+          href="#/on-the-fly/api/#format"
           class="block py-2 font-medium transition-colors duration-200 hover:text-gray-900"
           >Format</a
         >
       </li>
       <li class="ml-4">
         <a
-          href="#"
+          href="#/on-the-fly/api/#recognition"
           class="block py-2 font-medium transition-colors duration-200 hover:text-gray-900"
           >Recognition</a
         >

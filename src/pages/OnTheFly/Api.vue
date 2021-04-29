@@ -52,7 +52,7 @@
                 </p>
 
                 <div>
-                  <h3 class="flex whitespace-pre-wrap group" id="#">
+                  <h3 class="flex whitespace-pre-wrap group" id="adjustments">
                     <a
                       href="#"
                       class="absolute opacity-0 after:hash group-hover:opacity-100"
@@ -314,7 +314,7 @@
                 </div>
                 
                 <div>
-                  <h3 class="flex whitespace-pre-wrap group" id="#">
+                  <h3 class="flex whitespace-pre-wrap group" id="face-detection">
                     <a
                       href="#"
                       class="absolute opacity-0 after:hash group-hover:opacity-100"
@@ -388,7 +388,7 @@
                 </div>
                 
                 <div>
-                  <h3 class="flex whitespace-pre-wrap group" id="#">
+                  <h3 class="flex whitespace-pre-wrap group" id="fill">
                     <a
                       href="#"
                       class="absolute opacity-0 after:hash group-hover:opacity-100"
@@ -550,7 +550,7 @@
                 </div>
 
                 <div>
-                  <h3 class="flex whitespace-pre-wrap group" id="#">
+                  <h3 class="flex whitespace-pre-wrap group" id="format">
                     <a
                       href="#"
                       class="absolute opacity-0 after:hash group-hover:opacity-100"
@@ -665,7 +665,7 @@
                 </div>
                 
                 <div>
-                  <h3 class="flex whitespace-pre-wrap group" id="#">
+                  <h3 class="flex whitespace-pre-wrap group" id="size">
                     <a
                       href="#"
                       class="absolute opacity-0 after:hash group-hover:opacity-100"
@@ -1131,7 +1131,7 @@
                 </div>
 
                 <div>
-                  <h3 class="flex whitespace-pre-wrap group" id="#">
+                  <h3 class="flex whitespace-pre-wrap group" id="stylize">
                     <a
                       href="#"
                       class="absolute opacity-0 after:hash group-hover:opacity-100"
@@ -1331,7 +1331,7 @@
                 </div>
                 
                 <div>
-                  <h3 class="flex whitespace-pre-wrap group" id="#">
+                  <h3 class="flex whitespace-pre-wrap group" id="trim">
                     <a
                       href="#"
                       class="absolute opacity-0 after:hash group-hover:opacity-100"
