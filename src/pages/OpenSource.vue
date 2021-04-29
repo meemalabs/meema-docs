@@ -21,15 +21,12 @@
                 </h1>
               </div>
               <p class="mt-1 text-lg text-gray-500">
-                wip.
+                “If it was not for Open Source, we would simply be an idea.”
               </p>
             </div>
             <div>
               <div class="prose">
-                <h2
-                  class="flex whitespace-pre-wrap group"
-                  id=""
-                >
+                <h2 class="flex whitespace-pre-wrap group" id="">
                   <a
                     href="#"
                     class="absolute opacity-0 after:hash group-hover:opacity-100"
@@ -44,11 +41,36 @@
                   ><span>Introduction</span>
                 </h2>
                 <p>
-                  Ex eiusmod et mollit velit labore excepteur duis exercitation
-                  do quis consectetur. Nulla esse occaecat nostrud non voluptate
-                  ullamco tempor fugiat minim. Labore consectetur culpa deserunt
-                  velit ullamco ullamco. Aute ex sit eu sint ad magna excepteur
-                  do labore incididunt irure. Eu elit ex voluptate ea est.
+                  Within this part of the documenation, we will cover all of the
+                  Open Source packages that we maintain.
+                </p>
+                <h2 class="flex whitespace-pre-wrap group" id="">
+                  <a
+                    href="#"
+                    class="absolute opacity-0 after:hash group-hover:opacity-100"
+                    aria-label="Anchor"
+                    style="
+                      margin-left: -1em;
+                      padding-right: 0.5em;
+                      box-shadow: none;
+                      color: rgb(161, 161, 170);
+                    "
+                  ></a
+                  ><span>Philosophy</span>
+                </h2>
+                <p>
+                  One of our biggest focuses within the company is to foster a
+                  healthy growth of the Open Source software. The more we can
+                  Open Source, the better.
+                </p>
+                <p>
+                  Not only do we support Open Source internally, we also try
+                  foster the growth externally. It's our mission to financially
+                  support as many projects as we possibly can.
+                </p>
+                <p>
+                  If you are the author of a cool package, send us a message, we
+                  may end up supporting you. 🙂
                 </p>
               </div>
             </div>

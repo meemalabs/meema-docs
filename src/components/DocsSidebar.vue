@@ -17,6 +17,7 @@
         <ul class="text-gray-600">
           <docs-static-sidebar />
           <docs-sidebar-otf v-if="$route.path.includes('on-the-fly')" />
+          <docs-sidebar-open-source v-if="$route.path.includes('open-source')" />
         </ul>
       </nav>
     </div>
@@ -25,5 +26,6 @@
 
 <script setup>
 import DocsSidebarOtf from "./_DocsSidebarOtf.vue";
+import DocsSidebarOpenSource from "./_DocsSidebarOpenSource.vue";
 import DocsStaticSidebar from "./_DocsStaticSidebar.vue";
 </script>
