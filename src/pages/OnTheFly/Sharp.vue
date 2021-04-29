@@ -54,10 +54,10 @@
 
                 <h3
                   class="flex whitespace-pre-wrap group"
-                  id="install-tailwind-via-npm"
+                  id="#"
                 >
                   <a
-                    href="#install-tailwind-via-npm"
+                    href="##"
                     class="absolute opacity-0 after:hash group-hover:opacity-100"
                     aria-label="Anchor"
                     style="
@@ -79,10 +79,10 @@
 
                 <h3
                   class="flex whitespace-pre-wrap group"
-                  id="install-tailwind-via-npm"
+                  id="#"
                 >
                   <a
-                    href="#install-tailwind-via-npm"
+                    href="##"
                     class="absolute opacity-0 after:hash group-hover:opacity-100"
                     aria-label="Anchor"
                     style="
@@ -104,10 +104,10 @@
 
                 <h3
                   class="flex whitespace-pre-wrap group"
-                  id="install-tailwind-via-npm"
+                  id="#"
                 >
                   <a
-                    href="#install-tailwind-via-npm"
+                    href="##"
                     class="absolute opacity-0 after:hash group-hover:opacity-100"
                     aria-label="Anchor"
                     style="

@@ -25,31 +25,6 @@
         >
       </li>
       <li>
-        <a
-          class="relative block px-3 py-2 text-gray-500 transition-colors duration-200 hover:text-gray-900"
-          href="#"
-          ><span class="absolute inset-0 rounded-md opacity-0 bg-cyan-50"></span
-          ><span class="relative">Release Notes</span></a
-        >
-      </li>
-      <li>
-        <a
-          class="relative block px-3 py-2 text-gray-500 transition-colors duration-200 hover:text-gray-900"
-          href="#"
-          ><span class="absolute inset-0 rounded-md opacity-0 bg-cyan-50"></span
-          ><span class="relative">GUI Editor</span></a
-        >
-      </li>
-    </ul>
-  </li>
-  <li class="mt-8">
-    <h5
-      class="px-3 mb-3 text-sm font-semibold tracking-wide text-gray-900 uppercase lg:mb-3 lg:text-xs"
-    >
-      Flavors
-    </h5>
-    <ul>
-      <li>
         <router-link
           active-class="text-light-blue-900"
           to="/on-the-fly/api"
@@ -64,6 +39,31 @@
           ><span class="relative">Complete API</span></router-link
         >
       </li>
+      <li>
+        <a
+          class="relative block px-3 py-2 text-gray-500 transition-colors duration-200 hover:text-gray-900"
+          href="#"
+          ><span class="absolute inset-0 rounded-md opacity-0 bg-cyan-50"></span
+          ><span class="relative">Release Notes</span></a
+        >
+      </li>
+      <li>
+        <a
+          class="relative block px-3 py-2 text-gray-500 transition-colors duration-200 hover:text-gray-900"
+          href="#"
+          ><span class="absolute inset-0 rounded-md opacity-0 bg-cyan-50"></span
+          ><span class="relative">Playground</span></a
+        >
+      </li>
+    </ul>
+  </li>
+  <li class="mt-8">
+    <h5
+      class="px-3 mb-3 text-sm font-semibold tracking-wide text-gray-900 uppercase lg:mb-3 lg:text-xs"
+    >
+      Flavors
+    </h5>
+    <ul>
       <li>
         <router-link
           active-class="text-light-blue-900"

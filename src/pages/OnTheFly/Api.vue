@@ -28,10 +28,10 @@
               <div class="prose">
                 <h2
                   class="flex whitespace-pre-wrap group"
-                  id="installing-tailwind-css-as-a-post-css-plugin"
+                  id=""
                 >
                   <a
-                    href="#installing-tailwind-css-as-a-post-css-plugin"
+                    href="#"
                     class="absolute opacity-0 after:hash group-hover:opacity-100"
                     aria-label="Anchor"
                     style="
@@ -41,22 +41,21 @@
                       color: rgb(161, 161, 170);
                     "
                   ></a
-                  ><span>Introductions</span>
+                  ><span>Image Operations</span>
                 </h2>
                 <p>
-                  Ex eiusmod et mollit velit labore excepteur duis exercitation
-                  do quis consectetur. Nulla esse occaecat nostrud non voluptate
-                  ullamco tempor fugiat minim. Labore consectetur culpa deserunt
-                  velit ullamco ullamco. Aute ex sit eu sint ad magna excepteur
-                  do labore incididunt irure. Eu elit ex voluptate ea est.
+                  The following list of query paramters you may apply to any image delivered through the Meema Content Delivery Network (CDN).
+                </p>
+                <p>
+                  In case you are struggling to make sense of this,  no worries. Check out our <a href="#">Playground</a> and we are certain any unclarity will start to make sense.
                 </p>
 
                 <h3
                   class="flex whitespace-pre-wrap group"
-                  id="install-tailwind-via-npm"
+                  id="#"
                 >
                   <a
-                    href="#install-tailwind-via-npm"
+                    href="##"
                     class="absolute opacity-0 after:hash group-hover:opacity-100"
                     aria-label="Anchor"
                     style="
@@ -78,10 +77,10 @@
 
                 <h3
                   class="flex whitespace-pre-wrap group"
-                  id="install-tailwind-via-npm"
+                  id="#"
                 >
                   <a
-                    href="#install-tailwind-via-npm"
+                    href="##"
                     class="absolute opacity-0 after:hash group-hover:opacity-100"
                     aria-label="Anchor"
                     style="
@@ -103,10 +102,10 @@
 
                 <h3
                   class="flex whitespace-pre-wrap group"
-                  id="install-tailwind-via-npm"
+                  id="#"
                 >
                   <a
-                    href="#install-tailwind-via-npm"
+                    href="##"
                     class="absolute opacity-0 after:hash group-hover:opacity-100"
                     aria-label="Anchor"
                     style="
