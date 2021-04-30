@@ -104,6 +104,18 @@ const routes = [
       ],
   },
   {
+    path: "/open-source/meema-client-php",
+    component: () =>
+      import(/* webpackChunkName: "meema-client-php" */ "../pages/MeemaClient/index.vue"),
+      children: [
+        {
+          path: "",
+          component: () =>
+            import(/* webpackChunkName: "meema-client-php" */ "../pages/MeemaClient/Guide.vue"),
+        },
+      ],
+  },
+  {
     path: "/privacy",
     component: () =>
       import(/* webpackChunkName: "privacy" */ "../pages/Privacy.vue"),
