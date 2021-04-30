@@ -80,6 +80,18 @@ const routes = [
       ],
   },
   {
+    path: "/open-source/laravel-media-recognition",
+    component: () =>
+      import(/* webpackChunkName: "open-source" */ "../pages/MediaRecognition/index.vue"),
+      children: [
+        {
+          path: "",
+          component: () =>
+            import(/* webpackChunkName: "media-converter-intro" */ "../pages/MediaRecognition/Guide.vue"),
+        },
+      ],
+  },
+  {
     path: "/privacy",
     component: () =>
       import(/* webpackChunkName: "privacy" */ "../pages/Privacy.vue"),
