@@ -68,6 +68,18 @@ const routes = [
       import(/* webpackChunkName: "open-source" */ "../pages/OpenSource.vue"),
   },
   {
+    path: "/open-source/laravel-media-converter",
+    component: () =>
+      import(/* webpackChunkName: "open-source" */ "../pages/MediaConverter/index.vue"),
+      children: [
+        {
+          path: "",
+          component: () =>
+            import(/* webpackChunkName: "media-converter-intro" */ "../pages/MediaConverter/Guide.vue"),
+        },
+      ],
+  },
+  {
     path: "/privacy",
     component: () =>
       import(/* webpackChunkName: "privacy" */ "../pages/Privacy.vue"),
