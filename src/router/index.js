@@ -70,24 +70,36 @@ const routes = [
   {
     path: "/open-source/laravel-media-converter",
     component: () =>
-      import(/* webpackChunkName: "open-source" */ "../pages/MediaConverter/index.vue"),
+      import(/* webpackChunkName: "laravel-media-converter" */ "../pages/MediaConverter/index.vue"),
       children: [
         {
           path: "",
           component: () =>
-            import(/* webpackChunkName: "media-converter-intro" */ "../pages/MediaConverter/Guide.vue"),
+            import(/* webpackChunkName: "media-converter-guide" */ "../pages/MediaConverter/Guide.vue"),
         },
       ],
   },
   {
     path: "/open-source/laravel-media-recognition",
     component: () =>
-      import(/* webpackChunkName: "open-source" */ "../pages/MediaRecognition/index.vue"),
+      import(/* webpackChunkName: "laravel-media-recognition" */ "../pages/MediaRecognition/index.vue"),
       children: [
         {
           path: "",
           component: () =>
-            import(/* webpackChunkName: "media-converter-intro" */ "../pages/MediaRecognition/Guide.vue"),
+            import(/* webpackChunkName: "media-recognition-guide" */ "../pages/MediaRecognition/Guide.vue"),
+        },
+      ],
+  },
+  {
+    path: "/open-source/laravel-text-to-speech",
+    component: () =>
+      import(/* webpackChunkName: "laravel-text-to-speech-guide" */ "../pages/TextToSpeech/index.vue"),
+      children: [
+        {
+          path: "",
+          component: () =>
+            import(/* webpackChunkName: "laravel-text-to-speech-guide" */ "../pages/TextToSpeech/Guide.vue"),
         },
       ],
   },
