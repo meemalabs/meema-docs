@@ -116,6 +116,30 @@ const routes = [
       ],
   },
   {
+    path: "/open-source/laravel-meema",
+    component: () =>
+      import(/* webpackChunkName: "laravel-meema" */ "../pages/LaravelMeema/index.vue"),
+      children: [
+        {
+          path: "",
+          component: () =>
+            import(/* webpackChunkName: "laravel-meema" */ "../pages/LaravelMeema/Guide.vue"),
+        },
+      ],
+  },
+  {
+    path: "/open-source/flysystem-adapter",
+    component: () =>
+      import(/* webpackChunkName: "laravel-meema" */ "../pages/Flysystem/index.vue"),
+      children: [
+        {
+          path: "",
+          component: () =>
+            import(/* webpackChunkName: "laravel-meema" */ "../pages/Flysystem/Guide.vue"),
+        },
+      ],
+  },
+  {
     path: "/privacy",
     component: () =>
       import(/* webpackChunkName: "privacy" */ "../pages/Privacy.vue"),

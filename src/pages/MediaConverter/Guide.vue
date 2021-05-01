@@ -257,29 +257,6 @@ class Media extends Model
                   <p>
                     Please note, this is only optional, and you should only enable this if you want to track the MediaConvert job's progressions.
                   </p>
-
-                  <h4 class="flex whitespace-pre-wrap group">
-                    <a
-                      href="#"
-                      class="absolute opacity-0 after:hash group-hover:opacity-100"
-                      aria-label="Anchor"
-                      style="
-                        margin-left: -1em;
-                        padding-right: 0.5em;
-                        box-shadow: none;
-                        color: rgb(161, 161, 170);
-                      "
-                    ></a
-                    ><span>Setup Expose</span>
-                  </h4>
-
-                  <div>
-                    <p>First, let's use <a target="_new" href="https://beyondco.de/docs/expose/getting-started/installation">Expose</a> 
-                    to "expose" / generate a URL for our local API.
-                    Follow the Expose documentation on how you can get started and generate a "live" & sharable
-                    URL for within your development environment.</p>
-                    <p>It should be as simple as <span class="text-sm code-highlight">cd my-laravel-api && expose.</span></p>
-                  </div>
                 </div>
 
                 <div>
