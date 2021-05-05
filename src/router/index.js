@@ -130,12 +130,12 @@ const routes = [
   {
     path: "/open-source/flysystem-adapter",
     component: () =>
-      import(/* webpackChunkName: "laravel-meema" */ "../pages/Flysystem/index.vue"),
+      import(/* webpackChunkName: "flysystem-meema" */ "../pages/Flysystem/index.vue"),
       children: [
         {
           path: "",
           component: () =>
-            import(/* webpackChunkName: "laravel-meema" */ "../pages/Flysystem/Guide.vue"),
+            import(/* webpackChunkName: "flysystem-meema" */ "../pages/Flysystem/Guide.vue"),
         },
       ],
   },
