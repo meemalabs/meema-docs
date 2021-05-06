@@ -27,16 +27,31 @@
       <li>
         <router-link
           active-class="text-light-blue-900"
-          to="/on-the-fly/api"
+          to="/on-the-fly/image-ops"
           class="relative block px-3 py-2 transition-colors duration-200"
           :class="
-            $route.path === '/on-the-fly/api' ? '' : 'hover:text-gray-900'
+            $route.path === '/on-the-fly/image-ops' ? '' : 'hover:text-gray-900'
           "
           ><span
-            v-if="$route.path === '/on-the-fly/api'"
+            v-if="$route.path === '/on-the-fly/image-ops'"
             class="absolute inset-0 rounded-md opacity-[60%] bg-light-blue-100"
           ></span
-          ><span class="relative">Complete API</span></router-link
+          ><span class="relative">Image Operations</span></router-link
+        >
+      </li>
+      <li>
+        <router-link
+          active-class="text-light-blue-900"
+          to="/on-the-fly/video-ops"
+          class="relative block px-3 py-2 transition-colors duration-200"
+          :class="
+            $route.path === '/on-the-fly/video-ops' ? '' : 'hover:text-gray-900'
+          "
+          ><span
+            v-if="$route.path === '/on-the-fly/video-ops'"
+            class="absolute inset-0 rounded-md opacity-[60%] bg-light-blue-100"
+          ></span
+          ><span class="relative">Video Operations</span></router-link
         >
       </li>
       <li>

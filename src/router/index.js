@@ -39,9 +39,14 @@ const routes = [
           import(/* webpackChunkName: "otf-intro" */ "../pages/OnTheFly/Introduction.vue"),
       },
       {
-        path: "api",
+        path: "image-ops",
         component: () =>
-          import(/* webpackChunkName: "api" */ "../pages/OnTheFly/Api.vue"),
+          import(/* webpackChunkName: "image-ops" */ "../pages/OnTheFly/ImageOps.vue"),
+      },
+      {
+        path: "video-ops",
+        component: () =>
+          import(/* webpackChunkName: "video-ops" */ "../pages/OnTheFly/VideoOps.vue"),
       },
       {
         path: "imgix",

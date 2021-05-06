@@ -17,11 +17,11 @@
                 <h1
                   class="inline-block text-3xl font-extrabold tracking-tight text-gray-900"
                 >
-                  Complete API
+                  Image Operations
                 </h1>
               </div>
               <p class="mt-1 text-lg text-gray-500">
-                The list of all available query parameters to choose from.
+                The list of all available query parameters ("image edits") to choose from.
               </p>
             </div>
             <div>
@@ -38,7 +38,7 @@
                       color: rgb(161, 161, 170);
                     "
                   ></a
-                  ><span>Image Operations</span>
+                  ><span>Complete API</span>
                 </h2>
                 <p>
                   The following list of query paramters you may apply to any
@@ -73,7 +73,7 @@
                       blurriness, and color range, or alter your images artistically.
                     </div>
                   </div>
-                  
+
                   <div>
                     <h4 class="flex whitespace-pre-wrap group" id="#">
                       <a
@@ -249,7 +249,7 @@
                     </div>
                   </div>
                 </div>
-                
+
                 <div>
                   <h3 class="flex whitespace-pre-wrap group" id="#">
                     <a
@@ -270,7 +270,7 @@
                       Add a border, rounded corners, and/or padding to your image.
                     </div>
                   </div>
-                  
+
                   <div>
                     <h4 class="flex whitespace-pre-wrap group" id="#">
                       <a
@@ -312,7 +312,7 @@
                     </div>
                   </div>
                 </div>
-                
+
                 <div>
                   <h3 class="flex whitespace-pre-wrap group" id="face-detection">
                     <a
@@ -333,7 +333,7 @@
                       Add a border, rounded corners, and/or padding to your image.
                     </div>
                   </div>
-                  
+
                   <div>
                     <h4 class="flex whitespace-pre-wrap group" id="#">
                       <a
@@ -360,7 +360,7 @@
                       <div class="param-desc-body">
                         The faceindex parameter must be an integer.
                         It can be set to any value from <span class="code-highlight">1 to N</span>,
-                        where <span class="code-highlight">N</span> is the total number of detected faces in the image. 
+                        where <span class="code-highlight">N</span> is the total number of detected faces in the image.
                       </div>
                     </div>
                     <div class="param-sections">
@@ -386,7 +386,7 @@
                     </div>
                   </div>
                 </div>
-                
+
                 <div>
                   <h3 class="flex whitespace-pre-wrap group" id="fill">
                     <a
@@ -596,8 +596,8 @@
                     <div class="param-sections">
                       <div class="param-desc">Possible values</div>
                       <div class="param-desc-body">
-                        Valid values are in the range <span class="code-highlight">0 – 100</span> 
-                        and the default is  <span class="code-highlight">75</span>. 
+                        Valid values are in the range <span class="code-highlight">0 – 100</span>
+                        and the default is  <span class="code-highlight">75</span>.
                         Quality can often be set much lower than the default, especially when serving high-DPR images.
                       </div>
                     </div>
@@ -663,7 +663,7 @@
                     </div>
                   </div>
                 </div>
-                
+
                 <div>
                   <h3 class="flex whitespace-pre-wrap group" id="size">
                     <a
@@ -927,7 +927,7 @@
                       <div class="param-desc">Link to the playground</div>
                     </div>
                   </div>
-                  
+
                   <div>
                     <h4 class="flex whitespace-pre-wrap group" id="#">
                       <a
@@ -1174,7 +1174,7 @@
                     <div class="param-sections">
                       <div class="param-desc">Possible values</div>
                       <div class="param-desc-body">
-                        Valid values are in the range <span class="code-highlight">0 – 2000</span> 
+                        Valid values are in the range <span class="code-highlight">0 – 2000</span>
                         and the default is  <span class="code-highlight">0</span>,
                         which leaves the image unchanged.
                       </div>
@@ -1219,7 +1219,7 @@
                     <div class="param-sections">
                       <div class="param-desc">Possible values</div>
                       <div class="param-desc-body">
-                        Possible values are <span class="code-highlight">true|false</span> 
+                        Possible values are <span class="code-highlight">true|false</span>
                       </div>
                     </div>
                     <div class="param-sections">
@@ -1260,7 +1260,7 @@
                       <div class="param-desc">Possible values</div>
                       <div class="param-desc-body">
                         Valid values are in the range <span class="code-highlight">0 – 100</span>.
-                        The default value is <span class="code-highlight">0</span>, which leaves the image unchanged. 
+                        The default value is <span class="code-highlight">0</span>, which leaves the image unchanged.
                       </div>
                     </div>
                     <div class="param-sections">
@@ -1275,7 +1275,7 @@
                       <div class="param-desc">Link to the playground</div>
                     </div>
                   </div>
-                  
+
                   <div>
                     <h4 class="flex whitespace-pre-wrap group" id="#">
                       <a
@@ -1301,10 +1301,10 @@
                       <div class="param-desc">Possible values</div>
                       <div class="param-desc-body">
                         Valid values are <span class="code-highlight">true|false</span>
-                        or <span class="code-highlight">0|1</span> 
+                        or <span class="code-highlight">0|1</span>
                         or in the range from <span class="code-highlight">0 – 100</span>
                         which is a min confidence,
-                        values that are higher than <span class="code-highlight">70</span> 
+                        values that are higher than <span class="code-highlight">70</span>
                         will ensure the image will be blurred.
                         Default value is <span class="code-highlight">false</span>,
                         which leaves the image unchanged.
@@ -1329,7 +1329,7 @@
                     </div>
                   </div>
                 </div>
-                
+
                 <div>
                   <h3 class="flex whitespace-pre-wrap group" id="trim">
                     <a
@@ -1350,7 +1350,7 @@
                       Add a border, rounded corners, and/or padding to your image.
                     </div>
                   </div>
-                  
+
                   <div>
                     <h4 class="flex whitespace-pre-wrap group" id="#">
                       <a
