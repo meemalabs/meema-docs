@@ -1,8 +1,8 @@
 <template>
   <li>
     <router-link
-      active-class="text-gray-900"
       to="/affiliates"
+      :class="$route.path.includes('affiliates') ? 'text-gray-900' : ''"
       class="flex items-center px-3 mb-4 transition-colors duration-200 hover:text-gray-900"
       ><div
         class="mr-3 rounded-md bg-gradient-to-br from-light-blue-400 to-indigo-500"
@@ -26,10 +26,11 @@
       Affiliates
     </router-link>
   </li>
+
   <li>
     <router-link
-      active-class="text-gray-900"
       to="/cloud"
+      :class="$route.path.includes('cloud') ? 'text-gray-900' : ''"
       class="flex items-center px-3 mb-4 transition-colors duration-200 hover:text-gray-900"
       ><div
         class="mr-3 rounded-md bg-gradient-to-br from-light-blue-400 to-indigo-500"
@@ -53,10 +54,11 @@
       Cloud
     </router-link>
   </li>
+
   <li>
     <router-link
-      active-class="text-gray-900"
       to="/images"
+      :class="$route.path.includes('images') ? 'text-gray-900' : ''"
       class="flex items-center px-3 mb-4 transition-colors duration-200 hover:text-gray-900"
       ><div
         class="mr-3 rounded-md bg-gradient-to-br from-light-blue-400 to-indigo-500"
@@ -82,8 +84,8 @@
   </li>
   <li>
     <router-link
-      active-class="text-gray-900"
       to="/media-manager"
+      :class="$route.path.includes('media-manager') ? 'text-gray-900' : ''"
       class="flex items-center px-3 mb-4 transition-colors duration-200 hover:text-gray-900"
       ><div
         class="mr-3 rounded-md bg-gradient-to-br from-light-blue-400 to-indigo-500"
@@ -107,10 +109,11 @@
       Media Manager
     </router-link>
   </li>
+
   <li>
     <router-link
-      active-class="text-gray-900"
       to="/on-the-fly"
+      :class="$route.path.includes('on-the-fly') ? 'text-gray-900' : ''"
       class="flex items-center px-3 mb-4 transition-colors duration-200 hover:text-gray-900"
       ><div
         class="mr-3 rounded-md bg-gradient-to-br from-light-blue-400 to-indigo-500"
@@ -134,10 +137,11 @@
       On-The-Fly
     </router-link>
   </li>
+
   <li>
     <router-link
-      active-class="text-gray-900"
       to="/open-source"
+      :class="$route.path.includes('open-source') ? 'text-gray-900' : ''"
       class="flex items-center px-3 mb-4 transition-colors duration-200 hover:text-gray-900"
       ><div
         class="mr-3 rounded-md bg-gradient-to-br from-light-blue-400 to-indigo-500"
@@ -161,10 +165,11 @@
       Open Source
     </router-link>
   </li>
+
   <li>
     <router-link
-      active-class="text-gray-900"
       to="/privacy"
+      :class="$route.path.includes('privacy') ? 'text-gray-900' : ''"
       class="flex items-center px-3 mb-4 transition-colors duration-200 hover:text-gray-900"
       ><div
         class="mr-3 rounded-md bg-gradient-to-br from-light-blue-400 to-indigo-500"
@@ -188,10 +193,11 @@
       Privacy
     </router-link>
   </li>
+
   <li>
     <router-link
-      active-class="text-gray-900"
       to="/video"
+      :class="$route.path.includes('video') ? 'text-gray-900' : ''"
       class="flex items-center px-3 mb-4 transition-colors duration-200 hover:text-gray-900"
       ><div
         class="mr-3 rounded-md bg-gradient-to-br from-light-blue-400 to-indigo-500"

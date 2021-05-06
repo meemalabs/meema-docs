@@ -26,16 +26,16 @@
       </li>
       <li>
         <router-link
-          to="/affiliates/terms"
+          to="/affiliates/terms-conditions"
           class="relative block px-3 py-2 transition-colors duration-200"
           :class="
-            $route.path === '/affiliates/terms' || $route.path === '/affiliates/terms/'
+            $route.path === '/affiliates/terms-conditions' || $route.path === '/affiliates/terms-conditions/'
               ? 'text-light-blue-900'
               : 'hover:text-gray-900'
           "
           ><span
             v-if="
-              $route.path === '/affiliates/terms' || $route.path === '/affiliates/terms/'
+              $route.path === '/affiliates/terms-conditions' || $route.path === '/affiliates/terms-conditions/'
             "
             class="absolute inset-0 rounded-md opacity-[60%] bg-light-blue-100"
           ></span

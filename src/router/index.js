@@ -9,7 +9,32 @@ const routes = [
   {
     path: "/affiliates",
     component: () =>
-      import(/* webpackChunkName: "affiliates" */ "../pages/Affiliates.vue"),
+      import(
+        /* webpackChunkName: "affiliates" */ "../pages/Affiliates/Introduction.vue"
+      ),
+  },
+  {
+    path: "/affiliates",
+    component: () =>
+      import(
+        /* webpackChunkName: "affiliates" */ "../pages/Affiliates/index.vue"
+      ),
+    children: [
+      {
+        path: "",
+        component: () =>
+          import(
+            /* webpackChunkName: "affiliates-intro" */ "../pages/Affiliates/Introduction.vue"
+          ),
+      },
+      {
+        path: "terms-conditions",
+        component: () =>
+          import(
+            /* webpackChunkName: "terms-conditions" */ "../pages/Affiliates/Terms.vue"
+          ),
+      },
+    ],
   },
   {
     path: "/cloud",
@@ -36,17 +61,23 @@ const routes = [
       {
         path: "",
         component: () =>
-          import(/* webpackChunkName: "otf-intro" */ "../pages/OnTheFly/Introduction.vue"),
+          import(
+            /* webpackChunkName: "otf-intro" */ "../pages/OnTheFly/Introduction.vue"
+          ),
       },
       {
         path: "image-ops",
         component: () =>
-          import(/* webpackChunkName: "image-ops" */ "../pages/OnTheFly/ImageOps.vue"),
+          import(
+            /* webpackChunkName: "image-ops" */ "../pages/OnTheFly/ImageOps.vue"
+          ),
       },
       {
         path: "video-ops",
         component: () =>
-          import(/* webpackChunkName: "video-ops" */ "../pages/OnTheFly/VideoOps.vue"),
+          import(
+            /* webpackChunkName: "video-ops" */ "../pages/OnTheFly/VideoOps.vue"
+          ),
       },
       {
         path: "imgix",
@@ -75,74 +106,98 @@ const routes = [
   {
     path: "/open-source/laravel-media-converter",
     component: () =>
-      import(/* webpackChunkName: "laravel-media-converter" */ "../pages/MediaConverter/index.vue"),
-      children: [
-        {
-          path: "",
-          component: () =>
-            import(/* webpackChunkName: "media-converter-guide" */ "../pages/MediaConverter/Guide.vue"),
-        },
-      ],
+      import(
+        /* webpackChunkName: "laravel-media-converter" */ "../pages/MediaConverter/index.vue"
+      ),
+    children: [
+      {
+        path: "",
+        component: () =>
+          import(
+            /* webpackChunkName: "media-converter-guide" */ "../pages/MediaConverter/Guide.vue"
+          ),
+      },
+    ],
   },
   {
     path: "/open-source/laravel-media-recognition",
     component: () =>
-      import(/* webpackChunkName: "media-recognition" */ "../pages/MediaRecognition/index.vue"),
-      children: [
-        {
-          path: "",
-          component: () =>
-            import(/* webpackChunkName: "media-recognition-guide" */ "../pages/MediaRecognition/Guide.vue"),
-        },
-      ],
+      import(
+        /* webpackChunkName: "media-recognition" */ "../pages/MediaRecognition/index.vue"
+      ),
+    children: [
+      {
+        path: "",
+        component: () =>
+          import(
+            /* webpackChunkName: "media-recognition-guide" */ "../pages/MediaRecognition/Guide.vue"
+          ),
+      },
+    ],
   },
   {
     path: "/open-source/laravel-text-to-speech",
     component: () =>
-      import(/* webpackChunkName: "laravel-text-to-speech" */ "../pages/TextToSpeech/index.vue"),
-      children: [
-        {
-          path: "",
-          component: () =>
-            import(/* webpackChunkName: "laravel-text-to-speech-guide" */ "../pages/TextToSpeech/Guide.vue"),
-        },
-      ],
+      import(
+        /* webpackChunkName: "laravel-text-to-speech" */ "../pages/TextToSpeech/index.vue"
+      ),
+    children: [
+      {
+        path: "",
+        component: () =>
+          import(
+            /* webpackChunkName: "laravel-text-to-speech-guide" */ "../pages/TextToSpeech/Guide.vue"
+          ),
+      },
+    ],
   },
   {
     path: "/open-source/meema-client-php",
     component: () =>
-      import(/* webpackChunkName: "meema-client-php" */ "../pages/MeemaClient/index.vue"),
-      children: [
-        {
-          path: "",
-          component: () =>
-            import(/* webpackChunkName: "meema-client-php-guide" */ "../pages/MeemaClient/Guide.vue"),
-        },
-      ],
+      import(
+        /* webpackChunkName: "meema-client-php" */ "../pages/MeemaClient/index.vue"
+      ),
+    children: [
+      {
+        path: "",
+        component: () =>
+          import(
+            /* webpackChunkName: "meema-client-php-guide" */ "../pages/MeemaClient/Guide.vue"
+          ),
+      },
+    ],
   },
   {
     path: "/open-source/laravel-meema",
     component: () =>
-      import(/* webpackChunkName: "laravel-meema" */ "../pages/LaravelMeema/index.vue"),
-      children: [
-        {
-          path: "",
-          component: () =>
-            import(/* webpackChunkName: "laravel-meema-guide" */ "../pages/LaravelMeema/Guide.vue"),
-        },
-      ],
+      import(
+        /* webpackChunkName: "laravel-meema" */ "../pages/LaravelMeema/index.vue"
+      ),
+    children: [
+      {
+        path: "",
+        component: () =>
+          import(
+            /* webpackChunkName: "laravel-meema-guide" */ "../pages/LaravelMeema/Guide.vue"
+          ),
+      },
+    ],
   },
   {
     path: "/open-source/flysystem-adapter",
     component: () =>
-      import(/* webpackChunkName: "flysystem-meema" */ "../pages/Flysystem/index.vue"),
-      children: [
-        {
-          path: "",
-          component: () =>
-            import(/* webpackChunkName: "flysystem-meema-guide" */ "../pages/Flysystem/Guide.vue"),
-        },
-      ],
+      import(
+        /* webpackChunkName: "flysystem-meema" */ "../pages/Flysystem/index.vue"
+      ),
+    children: [
+      {
+        path: "",
+        component: () =>
+          import(
+            /* webpackChunkName: "flysystem-meema-guide" */ "../pages/Flysystem/Guide.vue"
+          ),
+      },
+    ],
   },
   {
     path: "/privacy",
