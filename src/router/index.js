@@ -82,7 +82,7 @@ const routes = [
   {
     path: "/open-source/laravel-media-recognition",
     component: () =>
-      import(/* webpackChunkName: "laravel-media-recognition" */ "../pages/MediaRecognition/index.vue"),
+      import(/* webpackChunkName: "media-recognition" */ "../pages/MediaRecognition/index.vue"),
       children: [
         {
           path: "",
@@ -94,7 +94,7 @@ const routes = [
   {
     path: "/open-source/laravel-text-to-speech",
     component: () =>
-      import(/* webpackChunkName: "laravel-text-to-speech-guide" */ "../pages/TextToSpeech/index.vue"),
+      import(/* webpackChunkName: "laravel-text-to-speech" */ "../pages/TextToSpeech/index.vue"),
       children: [
         {
           path: "",
@@ -111,7 +111,7 @@ const routes = [
         {
           path: "",
           component: () =>
-            import(/* webpackChunkName: "meema-client-php" */ "../pages/MeemaClient/Guide.vue"),
+            import(/* webpackChunkName: "meema-client-php-guide" */ "../pages/MeemaClient/Guide.vue"),
         },
       ],
   },
@@ -123,7 +123,7 @@ const routes = [
         {
           path: "",
           component: () =>
-            import(/* webpackChunkName: "laravel-meema" */ "../pages/LaravelMeema/Guide.vue"),
+            import(/* webpackChunkName: "laravel-meema-guide" */ "../pages/LaravelMeema/Guide.vue"),
         },
       ],
   },
@@ -135,7 +135,7 @@ const routes = [
         {
           path: "",
           component: () =>
-            import(/* webpackChunkName: "flysystem-meema" */ "../pages/Flysystem/Guide.vue"),
+            import(/* webpackChunkName: "flysystem-meema-guide" */ "../pages/Flysystem/Guide.vue"),
         },
       ],
   },
