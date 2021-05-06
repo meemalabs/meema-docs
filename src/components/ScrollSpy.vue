@@ -157,6 +157,35 @@
   <div
     class="mb-8"
     v-if="
+      $route.path === '/affiliates' || $route.path === '/affiliates/'
+    "
+  >
+    <h5
+      class="mb-3 text-sm font-semibold tracking-wide text-gray-900 uppercase lg:text-xs"
+    >
+      On this page
+    </h5>
+    <ul class="overflow-x-hidden font-medium text-gray-500">
+      <li>
+        <a
+          href="#"
+          class="block py-2 transition-colors duration-200 transform hover:text-gray-900"
+          >Introduction</a
+        >
+      </li>
+      <li>
+        <a
+          href="#"
+          class="block py-2 transition-colors duration-200 transform hover:text-gray-900"
+          >Why Meema?</a
+        >
+      </li>
+    </ul>
+  </div>
+
+  <div
+    class="mb-8"
+    v-if="
       $route.path === '/open-source' || $route.path === '/open-source/'
     "
   >
