@@ -39,7 +39,16 @@ const routes = [
   {
     path: "/cloud",
     component: () =>
-      import(/* webpackChunkName: "cloud" */ "../pages/Cloud.vue"),
+      import(/* webpackChunkName: "cloud" */ "../pages/Cloud/index.vue"),
+    children: [
+      {
+        path: "",
+        component: () =>
+          import(
+            /* webpackChunkName: "cloud-intro" */ "../pages/Cloud/Introduction.vue"
+          ),
+      },
+    ],
   },
   {
     path: "/images",

@@ -17,6 +17,7 @@
         <ul class="text-gray-600">
           <docs-static-sidebar />
           <docs-sidebar-affiliates v-if="$route.path.includes('affiliates')" />
+          <docs-sidebar-cloud v-if="$route.path.includes('cloud')" />
           <docs-sidebar-otf v-if="$route.path.includes('on-the-fly')" />
           <docs-sidebar-open-source v-if="$route.path.includes('open-source')" />
         </ul>
@@ -28,6 +29,7 @@
 <script setup>
 import DocsSidebarOtf from "./_DocsSidebarOtf.vue";
 import DocsSidebarAffiliates from "./_DocsSidebarAffiliates.vue";
+import DocsSidebarCloud from "./_DocsSidebarCloud.vue";
 import DocsSidebarOpenSource from "./_DocsSidebarOpenSource.vue";
 import DocsStaticSidebar from "./_DocsStaticSidebar.vue";
 </script>
